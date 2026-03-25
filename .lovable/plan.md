@@ -1,58 +1,33 @@
 
 
-# ☕ Coffee Shop Online Store
+# Build Coffee Shop Homepage
 
-A warm and inviting e-commerce website for your coffee shop, where customers can browse and purchase your products online.
+Create a single, warm and cozy homepage for the coffee shop with the following sections:
 
----
+## What gets built
 
-## 🎨 Design & Atmosphere
+**Single file: `src/pages/Index.tsx`** - Complete homepage with:
 
-- **Warm & cozy aesthetic** with earthy tones (rich browns, cream, warm terracotta accents)
-- Soft textures and inviting typography that feels like a neighborhood coffee shop
-- Responsive design that looks great on desktop and mobile
+1. **Navigation bar** - Logo/shop name, links (Home, Shop, About, Contact), cart icon
+2. **Hero section** - Full-width warm background, welcoming headline ("Freshly Roasted, Lovingly Brewed"), subtitle, "Shop Now" CTA button
+3. **Featured Products** - Grid of 3-4 sample coffee products (hardcoded data) with images (placeholder), names, prices, and "Add to Cart" buttons
+4. **About snippet** - Short story section with cozy imagery about the shop's passion for coffee
+5. **Footer** - Shop info, social links, copyright
 
----
+## Design system updates
 
-## 🏠 Homepage
+**`src/index.css`** - Update CSS variables for warm coffee palette:
+- Background: warm cream/off-white
+- Primary: rich espresso brown
+- Accent: warm terracotta/burnt orange
+- Foreground: dark roast brown
+- Add a warm serif font (via Google Fonts in `index.html`)
 
-- Hero section with beautiful coffee imagery and a welcoming tagline
-- Featured products showcase
-- Brief "About Us" story section
-- Easy navigation to shop categories
+## Technical details
 
----
-
-## 🛒 Shop Experience
-
-- **Product catalog** displaying your coffee products with images, descriptions, and prices
-- Product detail pages with multiple images, descriptions, and "Add to Cart"
-- **Shopping cart** with quantity controls
-- Clean, secure checkout flow
-
----
-
-## 📄 Additional Pages
-
-- **About page** - Your coffee shop's story, values, and what makes you special
-- **Contact page** - Location, hours, and a contact form
-
----
-
-## 🔧 Backend & E-commerce (Shopify)
-
-- **Shopify integration** for product management, inventory, and secure payments
-- Start with a free development store while building
-- Go live when you're ready (30-day free trial, then paid Shopify plan required)
-
----
-
-## 🚀 Future Possibilities
-
-Once the core store is running, we can easily add:
-- Customer accounts & order tracking
-- Coffee subscription boxes
-- Blog with brewing guides
-- Product reviews
-- Gift cards
+- All product data hardcoded as a local array (no backend yet)
+- Uses existing shadcn Button and Card components
+- Responsive layout with Tailwind (mobile-first grid)
+- Smooth scroll between sections
+- No routing changes needed - everything on the index page
 
