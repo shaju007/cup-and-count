@@ -43,7 +43,7 @@ const products = [
 const navLinks = [
   { label: "Home", href: "#home" },
   { label: "Shop", href: "#shop" },
-  { label: "About", href: "#about" },
+  { label: "About", href: "/about" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -186,40 +186,6 @@ const Index = () => {
               </CardContent>
             </Card>
           ))}
-        </div>
-      </section>
-
-      {/* About */}
-      <section id="about" className="bg-card">
-        <div className="mx-auto max-w-6xl px-6 py-20">
-          <div className="grid items-center gap-12 md:grid-cols-2">
-            <div>
-              <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
-                Our Story
-              </h2>
-              <p className="mb-4 leading-relaxed text-muted-foreground">
-                Brew & Bean started with a simple dream: to share the warmth of a
-                perfectly brewed cup of coffee with our neighborhood. What began as
-                a tiny corner shop has grown into a community of coffee lovers who
-                believe every bean tells a story.
-              </p>
-              <p className="leading-relaxed text-muted-foreground">
-                We source our beans directly from family farms across Ethiopia,
-                Colombia, and Guatemala — roasting them in small batches right here
-                in our shop to bring out every unique note and flavor.
-              </p>
-            </div>
-            <div className="relative overflow-hidden rounded-xl">
-              <img
-                src={heroCoffee}
-                alt="Coffee beans and latte art"
-                className="h-72 w-full object-cover md:h-96"
-                loading="lazy"
-                width={1920}
-                height={1080}
-              />
-            </div>
-          </div>
         </div>
       </section>
 
