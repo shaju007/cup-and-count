@@ -12,3 +12,5 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+Sitemap: https://shaju007.github.io/cup-and-count/sitemap.xml
