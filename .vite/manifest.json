@@ -1,0 +1,50 @@
+{
+  "_client-BW4SiINb.js": {
+    "file": "assets/client-BW4SiINb.js",
+    "name": "client",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "index.html": {
+    "file": "assets/app-T9ipqkiy.js",
+    "name": "app",
+    "src": "index.html",
+    "isEntry": true,
+    "dynamicImports": [
+      "_client-BW4SiINb.js",
+      "_client-BW4SiINb.js"
+    ],
+    "css": [
+      "assets/app-FVnDb45P.css"
+    ],
+    "assets": [
+      "assets/hero-coffee-BZtikLR7.jpg",
+      "assets/product-beans-BW8CKXc2.jpg",
+      "assets/product-pourover-B75UMV8_.jpg",
+      "assets/product-latte-CTSx72Mo.jpg",
+      "assets/product-coldbrew-67Sk8A8A.jpg"
+    ]
+  },
+  "src/assets/hero-coffee.jpg": {
+    "file": "assets/hero-coffee-BZtikLR7.jpg",
+    "src": "src/assets/hero-coffee.jpg"
+  },
+  "src/assets/product-beans.jpg": {
+    "file": "assets/product-beans-BW8CKXc2.jpg",
+    "src": "src/assets/product-beans.jpg"
+  },
+  "src/assets/product-coldbrew.jpg": {
+    "file": "assets/product-coldbrew-67Sk8A8A.jpg",
+    "src": "src/assets/product-coldbrew.jpg"
+  },
+  "src/assets/product-latte.jpg": {
+    "file": "assets/product-latte-CTSx72Mo.jpg",
+    "src": "src/assets/product-latte.jpg"
+  },
+  "src/assets/product-pourover.jpg": {
+    "file": "assets/product-pourover-B75UMV8_.jpg",
+    "src": "src/assets/product-pourover.jpg"
+  }
+}
